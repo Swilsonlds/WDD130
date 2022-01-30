@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(228, 153, 184);
+}
+main{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 60%;
+}
+
+.big_white{
+    color: white;
+    font-size: 35px;
+}
+
+h1:hover{
+    color: black
+
+}
+
+.small{
+    color: white;
+    font-size: 18px
+}
+
+#pres{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#gospel{
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px ;
+}
+
+#img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#bottom{
+    max-width: 40%;
+    margin: 0 auto
+}
