@@ -1,6 +1,7 @@
  /*p, li, img, h2, div{
     border: 2px solid red;
 }*/
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Oswald&display=swap');
 
 body {
     background-color: rgb(165, 209, 238);
@@ -14,8 +15,9 @@ body {
     margin: 0 auto
 }
 h1, h2, h3{
-    font-family: Verdana, Geneva, tahoma, sans-sarif;
+    font-family: 'Dongle:wght@300',Verdana, Geneva, tahoma, sans-sarif;
     text-align: center;
+    
 }
 
 .main_img{
@@ -35,4 +37,8 @@ h1, h2, h3{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  p{
+      font-family: 'Oswald';
   }
