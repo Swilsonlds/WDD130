@@ -19,17 +19,26 @@
             </nav>
         </header>
         <main>
-            <div class="main_grid">
-                <img src="images/appraiser.jpg">
-                <div  id = "box1" class="box">
-                    <h2>Who are We?</h2>
-                    <p>We are a locally owned and operated commercial appraisal company that focuses on appartment appraisals. We've been happily serving our clientel in the pacific northwest for 5 years and counting! WVA was started by Jerey Wilson in 2015 and is run soley by him to this day.</p>
-                </div>
-                <div  id = "box2" class="box">
-                    <h2>What is a commercial real-estate appraiser?</h2>
-                    <p>Simply put, a commercial real estate-aooraiser is an individual who has received special training which allows them to accurately assess the market value of commercial properties. Appraisers will often compile the information they've gathered and calculated into concise appraisal reports which are used by various parties in many situations.</p>
-                </div>
-            </div>
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="user_name" placeholder="First and Last">
+                    </li>
+                    <li>
+                      <label for="mail">E-mail*:</label>
+                      <input type="email" id="mail" name="user_email" placeholder="youremail@something.com" required>
+                    </li>
+                    <li>
+                      <label for="msg">Message:</label>
+                      <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Submit</button>
+                      </li>
+                   </ul>  
+            </form>       
         </main>
         <footer>
             <h3>Wilson Valuation and Advisory</h3>
