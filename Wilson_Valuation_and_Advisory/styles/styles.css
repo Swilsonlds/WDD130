@@ -27,7 +27,7 @@ h3 {
 }
 
 header {
-    background-color:#778da9 ;
+    background-color:#778da9;
     max-width: 100%;
     text-align: center;
     padding: 2em
@@ -60,7 +60,6 @@ nav {
     margin: 0 auto;
     padding: 5px;
     border: 3px solid #0d1b2a;
-
 }
 
 .skyline {
@@ -120,7 +119,6 @@ nav {
 .client_px {
     margin: 20px;
     border:3px solid #0d1b2a
-
 }
 
 footer{
