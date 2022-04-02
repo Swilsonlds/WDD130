@@ -86,7 +86,7 @@ nav {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: repeat(1fr, 3);
+    grid-template-rows: repeat(3, 1fr);
     background-color: #778da9;
     margin: 30px auto;
     border:3px solid #0d1b2a
@@ -96,7 +96,7 @@ nav {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: repeat(1fr, 3);
+    grid-template-rows: repeat(3, 1fr);
     background-color: #778da9;
     margin: 30px auto;
     border:3px solid #0d1b2a
@@ -106,11 +106,10 @@ nav {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: repeat(1fr, 3);
+    grid-template-rows: repeat(3, 1fr);
     background-color: #778da9;
     margin: 30px auto;
     border:3px solid #0d1b2a
-
 }
 
 .client p {
