@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wilson Valuation and Advisory</title>
+    <link rel='stylesheet' href="styles/styles.css">
+    <title>Wilson Valuation and Advisory: Contact Us</title>
 </head>
 <body>
     <div id="content">
         <header>
-            <a id="logo_link" href="index.html">
-                <img src="#" alt="Company logo">
-            </a>
             <nav>
+                <a id="logo_link" href="index.html">WVA</a>
                 <a href="index.html">Home</a>
                 <a href="contact_us.html">Contact Us</a>
                 <a href="reviews.html">Client Reviews</a>
             </nav>
         </header>
         <main>
+            <div class="instructions">
+                <p>If you are interested in our services, or have a question reagarding our business, please fill out the form below. You will receive an email within 24 hours after your submission. We look forward to working with you!</p>
+            </div>
             <div id="feedback"></div>
             <form action="/my-handling-form-page" method="post">
                 <ul>
@@ -28,19 +30,17 @@
                     </li>
                     <li>
                       <label for="mail">E-mail*:</label>
-                      <input type="email" id="mail" name="user_email" placeholder="youremail@something.com" required>
+                      <input type="email" id="mail" name="user_email" placeholder="youremail@email.com" required>
                     </li>
                     <li>
                       <label for="msg">Message:</label>
-                      <textarea id="msg" name="user_message"></textarea>
+                      <textarea id="msg" name="user_message" placeholder="Let us know which of our services you are interested in. If you have a question; type it here."></textarea>
                     </li>
                     <li class="button">
                         <button type="submit">Submit</button>
                       </li>
                    </ul>  
             </form>  
-            <img class= "mail" src="images/mail.png" alt="mail">  
-            <img class= "docs" src="images/docs.jpg" alt="docs">
         </main>
         <footer>
             <h3>Wilson Valuation and Advisory</h3>
